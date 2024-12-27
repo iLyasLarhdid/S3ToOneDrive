@@ -17,7 +17,7 @@ This guide explains the process of obtaining a refresh token for the OneDrive AP
 
 ## Step 2: Configure API Permissions
 1. In the Azure Portal, go to **API permissions**.
-2. Add the following permissions:
+2. Add the following permissions: ( Microsoft Graph -> Delegated permissions)
    - `Files.ReadWrite.All` (Delegated)
    - `offline_access` (Delegated)
    - `User.Read` (Delegated)
